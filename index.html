@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Mart — Premium Bandanas, Socks & Handkerchiefs</title>
+    <meta name="description" content="Discover curated bandanas, socks, and handkerchiefs at Royal Mart. Premium quality for royal living.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="nav" id="nav">
+        <div class="container nav-inner">
+            <a href="#home" class="nav-logo">Royal Mart</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#about">Our Promise</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">Our Promise</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <h1>Exquisite Quality.<br><span>Royal Living.</span></h1>
+                <p>Premium essentials designed for comfort and style. Explore our specialized collection of cotton handkerchiefs, merino wool socks, and classic printed bandanas.</p>
+                <a href="#collection" class="hero-cta">
+                    Explore Collection
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-actual">
+                    <img src="assets/images/products/Hero Image.png" alt="Royal Mart Expertise Collection" class="hero-image-file">
+                    <div class="hero-image-branding">Royal Mart Originals</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section products" id="collection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Collection</span>
+                <p>Premium quality textiles crafted for comfort and timeless style.</p>
+            </div>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <span class="product-tag">Top Seller</span>
+                        <div class="image-slider">
+                            <img src="assets/images/products/Tara Color Q6 1.jpg" alt="Women's Hanky 1">
+                            <img src="assets/images/products/Tara Color Q6 lifestyle.png" alt="Women's Hanky Lifestyle">
+                            <img src="assets/images/products/Tara Color Q6.jpeg" alt="Women's Hanky 2">
+                            <img src="assets/images/products/Tara Color Q6.png" alt="Women's Hanky 3">
+                        </div>
+                        <button class="slider-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
+                        <button class="slider-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cotton Striped Hanky (Women)</h3>
+                        <p class="product-desc">Pack of 6. Soft, skin-friendly, and absorbent multicolor set.</p>
+                        <div class="product-buttons">
+                            <a href="https://www.amazon.in/Royal-Mart-Handkerchief-Skin-Friendly-Lightweight/dp/B0GNMGNK68" class="btn-amazon" target="_blank">Buy on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="image-slider">
+                            <img src="assets/images/products/LMDC.png" alt="Men's Hanky 1">
+                            <img src="assets/images/products/LMQ6 1.png" alt="Men's Hanky 2">
+                            <img src="assets/images/products/LMQ6 lifestyle.png" alt="Men's Hanky Lifestyle">
+                            <img src="assets/images/products/LMDC LIFESTYLE.png" alt="Men's Hanky Lifestyle 2">
+                        </div>
+                        <button class="slider-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
+                        <button class="slider-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Men's Cotton Face Cover Hanky</h3>
+                        <p class="product-desc">Pack of 6. 15-inch full face cover. Reusable and lightweight.</p>
+                        <div class="product-buttons">
+                            <a href="https://www.amazon.in/Royal-Mart-Cotton-Handkerchief-Mens/dp/B0GKVFKBFL" class="btn-amazon" target="_blank">Buy on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="image-slider">
+                            <img src="assets/images/products/WWLMDC 1.png" alt="Men's Pack 9 - 1">
+                            <img src="assets/images/products/WWLMDC.png" alt="Men's Pack 9 - 2">
+                            <img src="assets/images/products/WWLMDC LIFESTYLE.png" alt="Men's Pack 9 Lifestyle">
+                        </div>
+                        <button class="slider-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
+                        <button class="slider-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Men's Cotton Striped Set (Pack of 9)</h3>
+                        <p class="product-desc">White, Light & Dark colors. Complete face cover size.</p>
+                        <div class="product-buttons">
+                            <a href="https://www.amazon.in/Royal-Mart-Handkerchief-Skin-Friendly-Lightweight/dp/B0GL84RQQG" class="btn-amazon" target="_blank">Buy on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <span class="product-tag">Winter Wear</span>
+                        <div class="image-slider">
+                            <img src="assets/images/products/A Wollen.png" alt="Merino Black 1">
+                            <img src="assets/images/products/A Wollen lifestyle.png" alt="Merino Black Lifestyle">
+                            <img src="assets/images/products/A Wollen 1.png" alt="Merino Black 2">
+                        </div>
+                        <button class="slider-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
+                        <button class="slider-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Merino Woolen Socks (Black)</h3>
+                        <p class="product-desc">Soft, insulating winter socks designed for extreme cold weather.</p>
+                        <div class="product-buttons">
+                            <a href="https://www.amazon.in/Royal-Mart-Merino-Insulating-Weather/dp/B0GK1XQQ36" class="btn-amazon" target="_blank">Buy on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="image-slider">
+                            <img src="assets/images/products/F wollen.png" alt="Merino Cream 1">
+                            <img src="assets/images/products/F wollen lifestyle.png" alt="Merino Cream Lifestyle">
+                            <img src="assets/images/products/F wollen 1.png" alt="Merino Cream 2">
+                        </div>
+                        <button class="slider-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
+                        <button class="slider-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Merino Woolen Socks (Cream)</h3>
+                        <p class="product-desc">Elegant cream shade. High-grade insulation for men & women.</p>
+                        <div class="product-buttons">
+                            <a href="https://www.amazon.in/Royal-Mart-Merino-Insulating-Weather/dp/B0GK1YQWWY" class="btn-amazon" target="_blank">Buy on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="image-slider">
+                            <img src="assets/images/products/a black lifestyle.png" alt="Cotton Socks Lifestyle">
+                            <img src="assets/images/products/Ankle b.png" alt="Cotton Socks 1">
+                            <img src="assets/images/products/Ankle black 1.png" alt="Cotton Socks 2">
+                        </div>
+                        <button class="slider-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
+                        <button class="slider-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Daily Cotton Ankle Socks</h3>
+                        <p class="product-desc">Pack of 3. Reduces sweat and odor. Perfect for office/gym.</p>
+                        <div class="product-buttons">
+                            <a href="https://www.amazon.in/Royal-Mart-Black-Cotton-Formal/dp/B0GRMYWSGP" class="btn-amazon" target="_blank">Buy on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="image-slider">
+                            <img src="assets/images/products/White & red 1.jpg" alt="Bandana Red 1">
+                            <img src="assets/images/products/White & red lifestyle.png" alt="Bandana Red Lifestyle">
+                            <img src="assets/images/products/White & red.jpg" alt="Bandana Red 2">
+                        </div>
+                        <button class="slider-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
+                        <button class="slider-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Printed Bandanas (Red/White)</h3>
+                        <p class="product-desc">Pack of 2. Classic multicolor cotton paisley patterns.</p>
+                        <div class="product-buttons">
+                            <a href="https://www.amazon.in/Royal-Mart-Bandanas-Multicolor-Red/dp/B0GN9L1RYY" class="btn-amazon" target="_blank">Buy on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="image-slider">
+                            <img src="assets/images/products/White & Black 1.jpg" alt="Bandana Black 1">
+                            <img src="assets/images/products/White & Black lifestyle.png" alt="Bandana Black Lifestyle">
+                            <img src="assets/images/products/White & Black.jpg" alt="Bandana Black 2">
+                        </div>
+                        <button class="slider-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
+                        <button class="slider-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>White & Black Printed Bandanas</h3>
+                        <p class="product-desc">Pack of 2. Iconic monochrome patterns for versatile styling.</p>
+                        <div class="product-buttons">
+                            <a href="https://www.amazon.in/Royal-Mart-White-Black-Bandana/dp/B0CHDX5SDF" class="btn-amazon" target="_blank">Buy on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section trust" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Why Choose Us</span>
+                <h2>The Royal Mart Promise</h2>
+            </div>
+            <div class="trust-grid">
+                <div class="trust-card">
+                    <div class="trust-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Certified Authentic</h3>
+                    <p>100% genuine products sourced directly for high quality assurance.</p>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <h3>Premium Comfort</h3>
+                    <p>Handpicked fabrics that meet our standards for durability and design.</p>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Swift fulfillment through our marketplace partners across India.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-inner">
+                <span class="footer-logo">Royal Mart</span>
+                <p>&copy; 2026 Royal Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
